@@ -1,0 +1,210 @@
+@charset "UTF-8";
+.second h3 {
+  color: aqua;
+}
+.second .apropos .image .image1 {
+  width: 27rem;
+  height: 25rem;
+}
+.second .apropos .image .image2 {
+  width: 27rem;
+  height: 25rem;
+}
+.second .apropos .image .image3 {
+  width: 27rem;
+  height: 25rem;
+}
+.second .apropos .image .image4 {
+  width: 27rem;
+  height: 25rem;
+}
+
+.second .etude {
+  margin-top: 4rem;
+  background-color: rgb(230, 114, 6);
+}
+.second .etude h4 {
+  font-size: 20px;
+  font-family: none;
+  font-weight: 20px;
+}
+
+.second .competence .combine_logo {
+  margin: 3rem;
+  margin-top: 4rem;
+}
+.second .competence .combine_logo .image_photoshop {
+  width: 150px;
+  height: 150px;
+}
+.second .competence .combine_logo .image_figma {
+  width: 155px;
+  height: 155px;
+}
+.second .competence .image_crée .ciel_étoiles {
+  width: 450px;
+  height: 450px;
+}
+.second .competence .image_crée .paysage_naturelle {
+  width: 450px;
+  height: 450px;
+}
+
+.second .contact {
+  margin-top: 4rem;
+  display: inline-flex;
+}
+.second .contact .contact-form {
+  background-color: transparent;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 10px red;
+  width: 300px;
+}
+.second .contact .contact-form h1 {
+  margin-top: 40px;
+  font-size: 30px;
+  color: rgb(11, 194, 148);
+  font-family: cursive;
+}
+.second .contact .contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  color: rgb(247, 242, 242);
+  font-size: 20px;
+}
+.second .contact .contact-form .contact-form input,
+.second .contact .contact-form .contact-form textarea {
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(18, 169, 189, 0.836);
+  border-radius: 5px;
+  background-color: transparent;
+}
+.second .contact .contact-form button {
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 100px;
+  margin-left: 150px;
+  margin-top: 40px;
+  height: 40px;
+  width: 100px;
+}
+.second .contact .contact-form button:hover {
+  background-color: rgb(156, 8, 241);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+body main {
+  position: fixed;
+  background-color: rgb(83, 4, 83);
+  padding: 3rem;
+  height: 100vh;
+  border-top-right-radius: 80px;
+  background-color: rgb(156, 8, 241);
+}
+body main .photo_de_prophile {
+  width: 170px;
+  height: 170px;
+  border-radius: 100px;
+  margin: 2rem;
+}
+body main .navbar li {
+  list-style-type: none;
+  margin: 2rem;
+}
+body main .navbar li a {
+  text-decoration: none;
+  color: aqua;
+}
+body main .navbar li a:hover {
+  color: rgb(7, 167, 55);
+}
+body main .social_icon {
+  margin: 2rem;
+}
+body .second {
+  margin-left: 25rem;
+}
+
+@media (max-width: 850px) {
+  body h3 {
+    font-size: small;
+    margin-left: 100px;
+  }
+  body h1 {
+    font-size: small;
+  }
+  body P {
+    font-size: 10px;
+    margin-left: 100px;
+  }
+  body main {
+    background-color: rgb(83, 4, 83);
+    padding: 0px;
+    background-color: rgb(156, 8, 241);
+  }
+  body main .photo_de_prophile {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 2px;
+  }
+  body main .navbar li {
+    list-style-type: none;
+    margin: 2px;
+  }
+  body main .navbar li a {
+    text-decoration: none;
+    color: aqua;
+    font-size: small;
+  }
+  body main .navbar li a:hover {
+    color: rgb(7, 167, 55);
+  }
+  body main .social_icon {
+    margin: 2px;
+  }
+  body main .social_icon span {
+    font-size: small;
+  }
+  body .second {
+    margin-left: 30px;
+  }
+  body .second .apropos .image .image1 {
+    width: 19rem;
+    height: 19rem;
+  }
+  body .second .apropos .image .image2 {
+    width: 19rem;
+    height: 19rem;
+  }
+  body .second .apropos .image .image3 {
+    width: 19rem;
+    height: 19rem;
+  }
+  body .second .apropos .image .image4 {
+    width: 19rem;
+    height: 19rem;
+  }
+  body .second .contact .contact-form {
+    display: block;
+  }
+  body .second .image_crée .ciel_étoiles {
+    width: 19rem;
+    height: 19rem;
+  }
+  body .second .image_crée .paysage_naturelle {
+    width: 19rem;
+    height: 19rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

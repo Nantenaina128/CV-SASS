@@ -1,0 +1,24 @@
+.second{
+    .competence{
+      .combine_logo{
+        margin: 3rem;
+        @include espace_en-haut;
+        
+        .image_photoshop{
+          @include image_style($a:150px,$b:150px);
+        }
+        .image_figma{
+          @include image_style($a:155px,$b:155px)
+       }
+     
+    }
+    .image_crée{
+        .ciel_étoiles{
+          @include image_style($a:450px,$b:450px);
+        }
+        .paysage_naturelle{
+          @include image_style($a:450px,$b:450px)
+        }
+    }
+}
+}

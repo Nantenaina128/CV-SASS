@@ -1,0 +1,7 @@
+.second{
+    .etude{
+        @include espace_en-haut;
+        background-color: $secondly_color;
+        h4{@include font_style($d:20px,$e:none,$f:20px,)}
+    }
+}

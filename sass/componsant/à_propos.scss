@@ -1,0 +1,19 @@
+.second{
+   h3{color: aqua;}
+    .apropos{
+          .image{
+            .image1{
+               @include image_style($a:27rem,$b:25rem); 
+            }
+            .image2{
+               @include image_style($a:27rem,$b:25rem); 
+            }
+            .image3{
+               @include image_style($a:27rem,$b:25rem); 
+            }
+            .image4{
+               @include image_style($a:27rem,$b:25rem); 
+            }
+          } 
+        }
+ }

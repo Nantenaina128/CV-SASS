@@ -1,0 +1,44 @@
+@import "main.scss";
+body{
+    margin: 0;
+    padding: 0;
+   
+    main{
+      position: fixed;
+      background-color: rgb(83, 4, 83);
+      padding: 3rem;
+      height: 100vh;
+      border-top-right-radius: 80px;
+      background-color: $primary-color;
+      
+        .photo_de_prophile{
+          width:170px;
+          height: 170px;
+          border-radius: 100px;
+          margin: 2rem;
+          
+        }
+        .navbar{
+          li{ 
+            list-style-type: none;
+            margin: 2rem;
+            a{
+              text-decoration: none;
+              color: aqua;
+              &:hover{
+                color: rgb(7, 167, 55);
+              }
+            }
+          }
+
+        }
+       .social_icon{
+         margin: 2rem;
+       }
+    }
+    .second{
+      margin-left: 25rem;
+      
+    } 
+}
+@import "element/responsive.scss"

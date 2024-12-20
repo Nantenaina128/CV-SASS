@@ -1,0 +1,87 @@
+@media(max-width:850px){
+    body{
+        h3{
+            font-size: small;
+            margin-left: 100px;
+        }
+        h1{
+            font-size: small;
+        }
+        P{
+            font-size: 10px;
+            margin-left: 100px;
+        }
+        main{
+            background-color: rgb(83, 4, 83);
+            padding: 0px;
+            background-color: $primary-color;
+            .photo_de_prophile{
+                width:50px;
+                height: 50px;
+                border-radius: 100px;
+                margin: 2px;
+                
+              }
+             .navbar{
+                li{ 
+                  list-style-type: none;
+                  margin: 2px;
+                  
+                  a{
+                    text-decoration: none;
+                    color: aqua;
+                    font-size: small;
+                    &:hover{
+                      color: rgb(7, 167, 55);
+                    }
+                  }
+                }
+      
+              }
+              .social_icon{
+                margin: 2px;
+                span{
+                    font-size: small;
+                }
+
+              }
+        }
+        .second{
+            margin-left: 30px;
+            .apropos{
+                .image{
+                  .image1{
+                     @include image_style($a:19rem,$b:19rem); 
+                  }
+                  .image2{
+                     @include image_style($a:19rem,$b:19rem); 
+                  }
+                  .image3{
+                     @include image_style($a:19rem,$b:19rem); 
+                  }
+                  .image4{
+                     @include image_style($a:19rem,$b:19rem); 
+                  }
+                } 
+              }
+          } 
+      .second{
+        .contact{
+          .contact-form{
+            display: block;
+          }  
+        }
+      
+      }
+     .second{
+        .image_crée{
+            .ciel_étoiles{
+              @include image_style($a:19rem,$b:19rem);
+            }
+            .paysage_naturelle{
+              @include image_style($a:19rem,$b:19rem)
+            }
+        }
+     }
+    }
+}

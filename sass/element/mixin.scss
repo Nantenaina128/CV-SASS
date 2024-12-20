@@ -1,0 +1,13 @@
+@mixin image_style($a,$b){
+    width: $a;
+    height: $b;
+}
+@mixin espace_en-haut($c:4rem){
+    margin-top: $c;
+}
+@mixin font_style($d,$e,$f){
+    font-size: $d;
+    font-family: $e;
+    font-weight: $f;
+    
+}
